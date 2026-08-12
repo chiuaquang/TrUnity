@@ -1,7 +1,11 @@
 # Unity Game Live Translation Tool on Winlator
 
+# README Vietnamese
+[README Vietnamese](README_vi.md)
+
 A tool for live-translating Unity games running on Android through Winlator, using BepInEx and AutoTranslator.
 
+# BepInEx
 
 BepInEx is a plugin / modding framework for Unity Mono, IL2CPP and .NET framework games (XNA, FNA, MonoGame, etc.)
 
@@ -17,8 +21,6 @@ BepInEx is a plugin / modding framework for Unity Mono, IL2CPP and .NET framewor
 
 A more comprehensive comparison list of features and compatibility is available at https://bepis.io/unity.html
 
-
-[README Vietnamese](README_vi.md)
 
 ## ✨ Features
 

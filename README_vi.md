@@ -2,6 +2,8 @@
 
 Công cụ dịch trực tiếp các game Unity chạy trên Android thông qua Winlator, sử dụng BepInEx và AutoTranslator.
 
+# BepInEx
+
 BepInEx là một plugin/khung modding dành cho Unity Mono, IL2CPP và các trò chơi sử dụng framework .NET (XNA, FNA, MonoGame, v.v.).
 
 (Hiện tại chỉ có Unity Mono là có phiên bản ổn định.)
