@@ -1,10 +1,8 @@
-# Unity Windows Game Live Translation Tool (via Winlator)
+# Unity Game Live Translation Tool on Winlator
 
-A tool for live-translating Unity-based Windows games running on Android through Winlator, using BepInEx and AutoTranslator.
+A tool for live-translating Unity games running on Android through Winlator, using BepInEx and AutoTranslator.
 
-[README tiếng Việt](README_vi.md)
-
----
+[README Vietnamese](README_vi.md)
 
 ## ✨ Features
 
@@ -19,9 +17,9 @@ A tool for live-translating Unity-based Windows games running on Android through
 ## 📦 Requirements
 
 - **Android Device**: Android 8.0+
-- **Winlator** installed and configured
-- **BepInEx** installed inside the game container
-- **XUnity.AutoTranslator** plugin placed in BepInEx plugins folder
+- **Winlator** installed
+- **BepInEx** files downloaded and placed in the game folder
+- **XUnity.AutoTranslator** plugin placed in BepInEx plugins folder — Note: Already bundled, no extra steps needed.
 - Internet access for translation API calls
 
 ---
@@ -30,11 +28,13 @@ A tool for live-translating Unity-based Windows games running on Android through
 
 ### Step 1 — Configure the Container
 
-Open Winlator, long-press your container → tap **Edit / Reconfigure** (Mông má lại / Xào nấu).
+Tap the **+** button near the Container section, then tap the checkmark to create it.
+
+Tap the **three-dot menu** → select **Edit**.
 
 ### Step 2 — Set Environment Variable
 
-Go to the **Environment Variables** tab and add a new variable:
+Go to the **Environment** tab and add a new variable:
 
 | Name | Value |
 |------|-------|
@@ -42,7 +42,7 @@ Go to the **Environment Variables** tab and add a new variable:
 
 > This tells Wine to use the native `winhttp.dll` before the built-in one, which is required for BepInEx to inject correctly.
 
-To add it: tap **Load more** → tap the **+** button → enter the name and value above → tap **Confirm** (Chốt đon!).
+How to add: tap **Add** → enter the name and value above → tap **OK**.
 
 ### Step 3 — Add winhttp via Winecfg
 
@@ -80,7 +80,7 @@ FromLanguage=en
 
 ---
 
-## 🚀 Usage
+## 🚀 Usage — The steps above already cover everything, you can skip this section
 
 1. Install Winlator and create a container for your game.
 2. Copy BepInEx into the game folder inside the container.
@@ -106,7 +106,7 @@ FromLanguage=en
 
 1. **Legal**: For educational and research purposes only. Please support official game releases.
 2. **Compatibility**: Not all Unity games are compatible with BepInEx or AutoTranslator.
-3. **Backup**: Always back up your game files before making changes.
+3. **Backup**: Always back up your game files before making any changes.
 4. **API Limits**: Google Translate has rate limits; excessive use may result in temporary blocks.
 
 ---
@@ -121,6 +121,7 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 - **Developer**: chiuaquang
 - **Telegram**: [@dexbillava](https://t.me/dexbillava)
+- **BepInEx**: [BepInEx](https://github.com/BepInEx/BepInEx)
 - **Translation Plugin**: [XUnity.AutoTranslator](https://github.com/bbepis/XUnity.AutoTranslator)
 - **Issue Tracker**: [GitHub Issues](https://github.com/chiuaquang/TrUnity/issues)
 
@@ -138,6 +139,6 @@ If this tool has been helpful to you, please:
 
 ## Note
 
-- This guide is specifically for running **Windows Unity games** on Android through **Winlator**.
+- This guide is specifically for running **Unity Windows games** on Android through **Winlator**.
 - BepInEx and AutoTranslator are third-party tools — refer to their own documentation for advanced configuration.
 - If translation does not work, double-check the `WINEDLLOVERRIDES` environment variable and the `winhttp` DLL override in Winecfg.
