@@ -1,9 +1,9 @@
 # Unity Game Live Translation Tool on Winlator
 
+A tool for live-translating Unity games running on Android through Winlator, using BepInEx and AutoTranslator.
+
 # README Vietnamese
 [README Vietnamese](README_vi.md)
-
-A tool for live-translating Unity games running on Android through Winlator, using BepInEx and AutoTranslator.
 
 # BepInEx
 
