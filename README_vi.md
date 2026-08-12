@@ -18,29 +18,27 @@ Công cụ dịch trực tiếp các game Unity chạy trên Android thông qua 
 
 - **Thiết bị Android**: Android 8.0 trở lên
 - Đã cài **Winlator**
-- Đã cài **BepInEx** vào thư mục game trong container
-- Plugin **XUnity.AutoTranslator** đặt trong thư mục plugins của BepInEx
+- Đã tải file **BepInEx** để vào thư mục game
+- Plugin **XUnity.AutoTranslator** đặt trong thư mục plugins của BepInEx Note: Đã tích hợp sẵn không cần làm bước này.
 - Kết nối Internet để gọi API dịch thuật
 
 ---
 
 ## ⚙️ Thiết Lập Trên Winlator
 
-### Bước 1 — Mở Cài Đặt Container
+### Bước 1 — Bấm vào dấu + ở trên chỗ Container sau đó tạo nó 
 
-Mở Winlator, nhấn giữ container → chọn **Mông má lại / Xào nấu** (Edit / Reconfigure).
+### Bước 2 — Bấm vào 3 chấm → chọn Edit
 
-### Bước 2 — Thêm Biến Môi Trường
+### Bước 3 — Bấm vào ENVIRONMENT và bấm vào Add
 
-Chuyển sang tab **Biến Thời Tiết (Môi Trường)** và thêm biến mới:
-
-| Tên | Giá Trị |
+| Name | Values |
 |-----|---------|
 | `WINEDLLOVERRIDES` | `winhttp=n,b` |
 
 > Lệnh này yêu cầu Wine ưu tiên dùng `winhttp.dll` bản native trước built-in, cần thiết để BepInEx inject đúng cách.
 
-Cách thêm: nhấn **Nạp thêm đạn** → nhấn nút **+** → nhập tên và giá trị như trên → nhấn **Chốt đon!**
+Cách thêm: nhấn **Add** → nhập vào name và values như trên → nhấn **OK!**
 
 ### Bước 3 — Thêm winhttp trong Winecfg
 
@@ -78,7 +76,7 @@ FromLanguage=en
 
 ---
 
-## 🚀 Hướng Dẫn Sử Dụng
+## 🚀 Hướng Dẫn Sử Dụng + Ở trên đã hướng dẫn rồi bạn không cần để ý phần này
 
 1. Cài Winlator và tạo container cho game của bạn.
 2. Sao chép BepInEx vào thư mục game bên trong container.
@@ -119,6 +117,7 @@ Dự án này được cấp phép theo Giấy phép MIT — xem file [LICENSE](
 
 - **Nhà phát triển**: chiuaquang
 - **Telegram**: [@dexbillava](https://t.me/dexbillava)
+- **Tệp BepInEx**: [BepInEx](https://github.com/BepInEx/BepInEx)
 - **Plugin dịch thuật**: [XUnity.AutoTranslator](https://github.com/bbepis/XUnity.AutoTranslator)
 - **Báo lỗi**: [GitHub Issues](https://github.com/chiuaquang/TrUnity/issues)
 
