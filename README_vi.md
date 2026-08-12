@@ -26,11 +26,16 @@ Công cụ dịch trực tiếp các game Unity chạy trên Android thông qua 
 
 ## ⚙️ Thiết Lập Trên Winlator
 
-### Bước 1 — Bấm vào dấu + ở trên chỗ Container sau đó tạo nó 
+### Bước 1 — Cấu hình Container
 
-### Bước 2 — Bấm vào 3 chấm → chọn Edit
+Bấm vào dấu + ở trên chỗ Container sau đó tạo nó 
+Bấm vào 3 chấm → chọn Edit
 
 ### Bước 3 — Bấm vào ENVIRONMENT và bấm vào Add
+
+### Bước 2 — Thiết lập biến môi trường
+
+Bấm vào **Environment ** thêm một biến mới:
 
 | Name | Values |
 |-----|---------|
