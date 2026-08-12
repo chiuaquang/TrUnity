@@ -28,10 +28,9 @@ Công cụ dịch trực tiếp các game Unity chạy trên Android thông qua 
 
 ### Bước 1 — Cấu hình Container
 
-Bấm vào dấu + ở trên chỗ Container sau đó tạo nó 
-Bấm vào 3 chấm → chọn Edit
+Bấm vào dấu + ở trên chỗ Container sau đó bấm vào tích để tạo nó 
 
-### Bước 3 — Bấm vào ENVIRONMENT và bấm vào Add
+Bấm vào 3 chấm → chọn Edit
 
 ### Bước 2 — Thiết lập biến môi trường
 
